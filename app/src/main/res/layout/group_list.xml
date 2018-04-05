@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/join_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@+id/mGType"
+        android:text="@string/add" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/join_button"
+        android:layout_marginStart="33dp"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:text="@string/type" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="@string/time" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:text="@string/place" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:text="@string/gnumber" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:text="@string/remain" />
+
+    <TextView
+        android:id="@+id/mGNumber"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/mGPlace"
+        android:layout_toEndOf="@+id/textView6"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mGPlace"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mGRemain"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mGDate"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/mGType"
+        android:layout_toEndOf="@+id/textView3"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mGType"
+        android:layout_width="75dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/mGName"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/mGName"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/textView2"
+        android:layout_toEndOf="@+id/textView"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        app:srcCompat="@drawable/user" />
+
+</RelativeLayout>
